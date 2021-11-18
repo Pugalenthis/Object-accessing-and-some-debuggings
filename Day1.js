@@ -106,3 +106,24 @@ for (var i = 0; i <numsArr.length; i++)
   console.log(sum);
 
 Output: 30
+
+
+8)       var numsArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var sum=100;
+var sums = 0
+for (var i = 0; i <numsArr.length; i++) {
+if (numsArr[i]%2 ===0) {
+    sum += numsArr[i]
+    } 
+    if (numsArr[i]%2!== 0) {
+        sums += numsArr[i]
+        }
+        }
+         console.log(sum-sums)
+
+
+9).    var numsArr = [[1, 2, 3, 4, 5],[ 6, 7, 8, 9, 10, 11]];
+for (var i = 0; i < numsArr.length; i++) {
+
+ console.log(numsArr[i])
+}
